@@ -90,7 +90,7 @@
 .qm-fixed{ position: relative;}
 .qm-fixed .doc-left-menu { position: fixed;position: fixed;top:70px;  bottom:0;overflow: auto; width:315px;}
 .qm-doc-container .doc-rigcon{width:100%; float: left;}
-.qm-doc-container .main-content{ margin-left:335px;}
+.qm-doc-container .main-content{ margin-left:235px;}
 
 .doc-left-menu .search-form {
     margin: 40px 0 20px;
