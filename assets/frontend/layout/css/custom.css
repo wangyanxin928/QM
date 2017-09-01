@@ -13,86 +13,50 @@
     box-shadow: 0 0 10px #ea9622;border-color: #ea9622;
 }
 /*文档中间块*/
-#overview{
-    color:#fff; overflow: hidden; margin-left: 25px; margin-right: 25px; margin-bottom: 20px;
-}
-#overview .first{
-    float: left; overflow: hidden;
-    width: 40%;
-}
-#overview .outer{
-    float: left; overflow: hidden;
-    width: 40%;
-}
-#overview .outer .wrap1{
-    float: left; width: 100%;
-}
-#overview .outer .wrap2{
-    float: right; width: 50%;
-}
-#overview .last{
-    float: right; overflow: hidden;
-    width: 20%;
-}
-
+#overview{  color:#fff; overflow: hidden; margin-left: 25px; margin-right: 25px; }
+#overview .first{  float: left; overflow: hidden;  width: 40%;  }
+#overview .outer{  float: left; overflow: hidden;  width: 40%;  }
+#overview .outer .wrap1{  float: left; width: 100%;  }
+#overview .outer .wrap2{  float: right; width: 50%;  }
+#overview .last{  float: right; overflow: hidden;  width: 20%;  }
 #overview a{display: block; color: #fff;  text-decoration: none;text-align: left;margin-bottom: 10px;}
 
-.index-start{
-    height:220px; padding-left: 35%;padding-right:8%;margin-right:10px;background: url(../img/index-start.png) no-repeat 10% center;
-}
-.index-start .title{
-    display: block;padding-top:70px;margin-bottom: 10px;font-size: 16px;
-}
-.index-start .intro{
-    font-size: 12px; line-height: 20px;
-}
-.index-app {
-    height:105px;line-height: 105px;
-    padding-left: 18%;margin-right:10px;background: url(../img/index-app.png) no-repeat 7.5% center;
-}
-.index-drf {
-    height:105px;line-height: 105px;
-    padding-left: 34%;margin-right:10px; background: url(../img/index-drf.png) no-repeat 15% center;
-}
-.index-iom {
-    height:105px; line-height: 105px;
-    padding-left: 34%;margin-right:10px; background: url(../img/index-iom.png) no-repeat 17% center;
-}
-.index-api{
-    height:220px;line-height: 220px;
-    padding-left: 48%;background: url(../img/index-api.png) no-repeat 10% center;
-}
 
-.index-color1 {
-    background-color: #e18c5a;
-}
-.index-color1:hover{
-    background-color: #f49054;
-}
-.index-color2 {
-    background-color: #00b4dc;
-}
-.index-color2:hover{
-    background-color: #06c2ec;
-}
-.index-color3{
-    background-color: #3dcbaa;
-}
-.index-color3:hover{
-    background-color: #44dcb9;
-}
-.index-color4{
-    background-color: #de81b2;
-}
-.index-color4:hover{
-    background-color: #f078b3
-}
-.index-color5{
-    background-color: #2dafbc;
-}
-.index-color5:hover{
-    background-color: #2dc0cf;
-}
+#overview2{  color:#fff; overflow: hidden; margin-left: 25px; margin-right: 15px; margin-bottom: 20px;  }
+
+#overview2 .outer{  float: left; overflow: hidden;  width: 100%;  }
+
+#overview2 .outer .wrap1{  float: left; width: 100%;  }
+#overview2 .outer .wrap2{  float: right; width: 50%;  }
+
+
+#overview2 a{display: block; color: #fff;  text-decoration: none;text-align: left;margin-bottom: 10px;}
+
+
+
+.index-start{  height:220px; padding-left: 35%;padding-right:8%;margin-right:10px;background: url(../img/index-start.png) no-repeat 10% center;  }
+.index-start .title{  display: block;padding-top:70px;margin-bottom: 10px;font-size: 16px;  }
+.index-start .intro{  font-size: 12px; line-height: 20px;  }
+.index-app {  height:105px;line-height: 105px;  padding-left: 18%;margin-right:10px;background: url(../img/index-app.png) no-repeat 7.5% center;  }
+.index-drf {  height:105px;line-height: 105px;  padding-left: 34%;margin-right:10px; background: url(../img/index-drf.png) no-repeat 15% center;  }
+.index-iom {  height:105px; line-height: 105px;  padding-left: 34%;margin-right:10px; background: url(../img/index-iom.png) no-repeat 17% center;  }
+.index-api{  height:220px;line-height: 220px;  padding-left: 48%;background: url(../img/index-api.png) no-repeat 10% center;  }
+.index-color1 {  background-color: #e18c5a;  }
+.index-color1:hover{  background-color: #f49054;  }
+.index-color2 {  background-color: #00b4dc;  }
+.index-color2:hover{  background-color: #06c2ec;  }
+.index-color3{  background-color: #3dcbaa;  }
+.index-color3:hover{  background-color: #44dcb9;  }
+.index-color4{  background-color: #de81b2;  }
+.index-color4:hover{  background-color: #f078b3  }
+.index-color5{  background-color: #2dafbc;  }
+.index-color5:hover{  background-color: #2dc0cf;  }
+.index-color6{  background-color: #8E44AD;  }
+.index-color6:hover{  background-color: #BF55EC;  }
+.index-color7{  background-color: #ACB5C3;  }
+.index-color7:hover{  background-color: #bfcad1;  }
+.index-color8{  background-color: #525E64;  }
+.index-color8:hover{  background-color: #61747d;  }
 
 /**/
 
