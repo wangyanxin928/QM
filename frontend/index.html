@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QM-文档</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+  <!--  <link rel="shortcut icon" href="favicon.ico">-->
+    <!-- Global styles START -->
+<!--    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Global styles END -->
+
+    <!-- Page level plugin styles START -->
+    <link href="../assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <!-- Page level plugin styles END -->
+
+    <!-- Theme styles START -->
+    <link href="../assets/global/css/components.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/style.css" rel="stylesheet"><!--修改-->
+    <link href="../assets/frontend/layout/css/style-responsive.css" rel="stylesheet"><!--修改-->
+    <link href="../assets/frontend/layout/css/themes/red.css" rel="stylesheet" id="style-color">
+    <link href="../assets/global/css/base.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/custom.css" rel="stylesheet">
+    <!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+<div class="iframe-box">
+    <!-- BEGIN HEADER -->
+    <iframe class="top-header" name="header" src="header.html"></iframe>
+
+    <!-- Header END -->
+    <!-- BEGIN contain -->
+    <iframe class="main-iframe" name="main" src="document.html" id="mainframe"></iframe>
+
+    <!-- end contain -->
+</div>
+
+
+
+
+
+<!-- Load javascripts at bottom, this will reduce page load time -->
+<!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<![endif]-->
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/frontend/layout/scripts/back-to-top.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+<script src="../assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script><!-- pop up -->
+
+<script src="../assets/frontend/layout/scripts/layout.js" type="text/javascript"></script><!--修改-->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        Layout.init();
+        Layout.initOWL();
+        RevosliderInit.initRevoSlider();
+        Layout.initTwitter();
+    });
+</script>
+<!-- END PAGE LEVEL JAVASCRIPTS -->
+<script type="text/javascript">
+    //注意：下面的代码是放在和iframe同一个页面调用,放在iframe下面
+    $("#mainframe").load(function () {
+        var mainheight = $(this).contents().find("body").height();
+        $(this).height(mainheight);
+    });
+</script>
+</body>
+<!-- END BODY -->
+</html>
