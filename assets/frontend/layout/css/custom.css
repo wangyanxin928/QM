@@ -53,8 +53,8 @@
 .index-color5:hover{  background-color: #2dc0cf;  }
 .index-color6{  background-color: #8E44AD;  }
 .index-color6:hover{  background-color: #BF55EC;  }
-.index-color7{  background-color: #ACB5C3;  }
-.index-color7:hover{  background-color: #bfcad1;  }
+.index-color7{  background-color: #3369bd;  }
+.index-color7:hover{  background-color: #4178ce;  }
 .index-color8{  background-color: #525E64;  }
 .index-color8:hover{  background-color: #61747d;  }
 
@@ -618,7 +618,7 @@
 
 @media(max-width:1200px )and (min-width: 992px){
     .index-start{padding-left:40%;}
-    .index-api{padding-left:47%;}
+    .index-api{padding-left:50%;}
 }
 
 @media(max-width: 992px)and (min-width: 768px){
