@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QM-文档-开发框架</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-">
+    <!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!--  <link rel="shortcut icon" href="favicon.ico">-->
+    <!-- Global styles START -->
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet">
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Global styles END -->
+
+    <!-- Page level plugin styles START -->
+    <link href="../assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="../assets/global/plugins/highlight/styles/vs.css" rel="stylesheet">
+    <!-- Page level plugin styles END -->
+
+    <!-- Theme styles START -->
+    <link href="../assets/global/css/components.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/style.css" rel="stylesheet">
+    <!--修改-->
+    <link href="../assets/frontend/layout/css/style-responsive.css" rel="stylesheet">
+    <!--修改-->
+    <link href="../assets/frontend/layout/css/themes/red.css" rel="stylesheet" id="style-color">
+    <link href="../assets/global/css/base.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/custom.css" rel="stylesheet">
+    <!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+
+<!-- BEGIN contain -->
+<div class="padding-top-70 container-fluid">
+    <div class="main-container qm-doc-container qm-fixed">
+        <div class="doc-left-menu">
+            <!--search box-->
+            <form class="search-form form-inline" role="form" action="/">
+                <div class="form-group">
+                    <label class="sr-only" for="search">Search</label>
+                    <input type="search" class="form-control" name="search" id="search" value="" placeholder="Search">
+                </div>
+            </form>
+            <ul class="doc-nav">
+                <li class="page"><a href="/">Overview</a></li>
+                <li class="category">
+                    <h5 class="category-title">QM快速开发平台</h5>
+                    <ul class="pages">
+                        <li class="page "><a href="#">QM快速开发介绍</a></li>
+                        <li class="page "><a href="#">创建一个APP</a></li>
+                        <li class="page"><a href="#">模版相关介绍</a></li>
+                        <li class="page"><a href="#">组件相关介绍</a></li>
+                        <li class="page"><a href="#">与IBD平台对接</a></li>
+                        <li class="page"><a href="#">开发框架规范</a></li>
+                    </ul>
+                </li>
+                <li class="category second">
+                    <h5 class="category-title">技术专题</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="#">Android签名证书描述及使用流程</a></li>
+                        <li class="page"><a href="#">应用配置说明</a></li>
+                        <li class="page"><a href="#">Widget包结构说明</a></li>
+                        <li class="page"><a href="#">模块开发指南_iOS</a></li>
+                        <li class="page"><a href="#">模块开发指南_Android</a></li>
+                        <li class="page"><a href="#">开发模块设计规范</a></li>
+                        <li class="page"><a href="#">前端框架开发指南</a></li>
+                        <li class="page"><a href="#">自定义loader说明</a></li>
+                        <li class="page"><a href="#">Sublime APICloud 语法提示</a></li>
+                        <li class="page"><a href="#">webStorm APICloud 插件编写</a></li>
+                        <li class="page"><a href="#">数据云服务开发指南</a></li>
+                        <li class="page"><a href="#">数据存储开发指南</a></li>
+                        <li class="page"><a href="#">推送技术指南</a></li>
+                        <li class="page"><a href="#">key.xml文件配置说明</a></li>
+                        <li class="page"><a href="#">iOS证书及描述文件制作流程</a></li>
+                        <li class="page"><a href="#">Apple Watch开发指南</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <h5 class="category-title">移动IBD</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="#">IBD平台介绍</a></li>
+                        <li class="page"><a href="#">创建自己的IBD【公共化/私有化】</a></li>
+                        <li class="page"><a href="#">应用市场</a></li>
+                        <li class="page"><a href="#">服务市场</a></li>
+                        <li class="page"><a href="#">数据市场</a></li>
+                        <li class="page"><a href="#">IBD平台开发接口指南</a></li>
+                    </ul>
+                </li>
+                <li class="category">
+                    <h5 class="category-title">云API</h5>
+                    <ul class="pages">
+                        <li class="page active"><a href="javascript:void(0)">DRF - 关于数据</a></li>
+                        <li class="page"><a href="document-iom.html">IOM - 关于权限</a></li>
+                        <li class="page"><a href="document-csc.html">CSC - 关于人员</a></li>
+                        <li class="page"><a href="document-rp.html">云资源池 - 关于资源池</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <h5 class="category-title">其它服务协议</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="#">隐私条款</a></li>
+                        <li class="page"><a href="#">服务条款</a></li>
+                        <li class="page"><a href="#">APP服务协议</a></li>
+                        <li class="page"><a href="#">模板市场服务协议</a></li>
+                        <li class="page"><a href="#">组件市场服务协议</a></li>
+                    </ul>
+                </li>
+                <li class="category second">
+                    <h5 class="category-title">Faq</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="#">端开发</a></li>
+                        <li class="page"><a href="#">云开发</a></li>
+                        <li class="page"><a href="#">APICloud Studio</a></li>
+                        <li class="page"><a href="#">应用服务</a></li>
+                        <li class="page"><a href="#">其它</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="doc-rigcon">
+            <div class="main-content">
+                <section class="doc-content">
+                    <h1 class="title">DRF —— 数据资源框架</h1>
+                    <p><a href="#1">DRF介绍</a></p>
+                    <p><a href="#2">DRF访问地址</a></p>
+                    <p><a href="#3">DRF操作界面</a></p>
+                    <p><a href="#4">接口调用标准及规范</a></p>
+                    <p><a href="#4">授权规范</a></p>
+                    <p><a href="#5">使用案例</a></p>
+
+                    <h1 id="-div-id-1-div-"><strong>社区介绍</strong>
+                        <div id="1"></div>
+                    </h1>
+                    <p style="line-height: 30px;">
+                        CSC(Data Resource Framework)，社区服务中心：<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        DRF（数据资源框架）是在线化的数据资源管理平台，基于多种数据库的标准化查询，多类型数据库的集中统一管理，可视化查询,简
+                        单拖拽并且支持海量数据、高并发；可存储结构化数据和非结构化数据，实现了大数据的快速检索可跨数据库、跨系统、跨
+                        机房进行数据的采集，并以标准或规范的格式进行存储。将格式混杂、不同区域、不同时期的数据收集进来。系统提供了数
+                        据即时查询、统计、分析、预警等多种方式对数据进行处理，挖掘数据中潜藏的巨大价值 。系统提供多端可视化来呈现数
+                        据结果。并可以将数据图表、报表、数据列表注册成服务，供第三方进行数据运营。
+                    </p>
+
+                    <h1 id="-div-id-2-div-"><strong>DRF访问地址</strong>
+                        <div id="2"></div>
+                    </h1>
+                    <p style="line-height: 30px;">
+                        DRF官网访问地址：<a>http://drf.unioncloud.com:10094</a><br/>
+                    </p>
+
+                    <h1 id="-div-id-3-div-"><strong>DRF操作界面</strong>
+                        <div id="3"></div>
+                    </h1>
+                    <p style="line-height: 30px;">
+                       DRF产品页面
+                        <img alt="" src="../assets/frontend/pages/img/drf/page1.png"/>
+                    </p>
+
+                    <h1 id="-div-id-4-div-"><strong>接口调用标准及规范</strong>
+                        <div id="4"></div>
+                    </h1>
+                    <p>DRF对外开发部分接口，供开发者在开发应用时使用，可以实现创建数据库、查询数据等功能。</p>
+                    <h2>接口地址：</h2>
+                    <p>
+                        <pre><code class="lang-js xml">
+                        <a>http://drf.unioncloud.com:10094/drf/datagateway/drfrestservice?_wadl</a>
+                        </code></pre>
+                    </p>
+                    <h2 id="-">调用规范：</h2>
+                    <p style="line-height: 30px;">接口调用参数格式：</p>
+                    <p>
+                        <pre><code class="lang-js xml">
+                            userInfoParameter:  //用户的认证信息
+                            {
+                            "UserID": "用户ID",
+                            "GroupID": "集团ID",
+                            "DBID":"D400E7E1-202A-4923-97E8-E48C96F029C4"   //查询的数据的id
+                            }
+                            functionName:拖拽生成的方法名
+                            JsonParams:方法需要的参数
+                            pageJson:分页参数（如果是SQL录入方法，则此参数无效）
+                        </code></pre>
+                    </p>
+
+                    <h1 id="-config-xml-div-id-5-div-"><strong>授权规范</strong>
+                        <div id="5"></div>
+                    </h1>
+                    <ul style="line-height: 30px;margin-left: 20px;">暂无授权规范</ul>
+
+                    <h1 id="-div-id-6-div-"><strong>使用案例</strong>
+                        <div id="6"></div>
+                    </h1>
+                    <p>（详细接口及参数说明见 <a href="">接口API</a> 系统）</p>
+
+                    <div class="page-meta clearfix">
+                        <div class="last-updated pull-right">
+                            <!-- Last updated on 13th Sep 2015 -->
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- end contain -->
+
+
+<!-- Load javascripts at bottom, this will reduce page load time -->
+<!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<![endif]-->
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+<script src="../assets/global/plugins/highlight/highlight.pack.js" type="text/javascript"></script>
+<!--代码片段高亮-->
+<!--<script src="../assets/global/plugins/highlightjs/highlight.pack.js" type="text/javascript"></script><!--代码片段高亮-->
+
+<script src="../assets/frontend/layout/scripts/back-to-top.js" type="text/javascript"></script>
+<!-- <script src="../assets/frontend/layout/scripts/doc-layout.js" type="text/javascript"></script> -->
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+<script src="../assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- pop up -->
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<!--滚动条-->
+
+<script src="../assets/frontend/layout/scripts/layout.js" type="text/javascript"></script>
+<!--修改-->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        Layout.init();
+//        hljs.initHighlightingOnLoad();
+        $('pre code').each(function (i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
+
+</script>
+<!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>

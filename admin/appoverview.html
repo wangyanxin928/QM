@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>登录后台进入APP页面</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-"><!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!--  <link rel="shortcut icon" href="favicon.ico">-->
+    <!-- Global styles START -->
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/uniform/css/uniform.default.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/plugins/bootstrap-switch/css/bootstrap-switch.min.css" rel="stylesheet" type="text/css"/>
+    <!-- END GLOBAL MANDATORY STYLES -->
+    <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
+
+    <!-- END PAGE LEVEL PLUGIN STYLES -->
+    <!-- BEGIN PAGE STYLES -->
+
+    <!-- END PAGE STYLES -->
+    <!-- BEGIN THEME STYLES -->
+    <!-- DOC: To use 'rounded corners' style just load 'components-rounded.css' stylesheet instead of 'components.css' in the below style tag -->
+    <link href="../assets/global/css/components-rounded.css" id="style_components" rel="stylesheet" type="text/css"/>
+    <link href="../assets/global/css/plugins.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/admin/layout4/css/layout.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/admin/layout4/css/themes/light.css" rel="stylesheet" type="text/css" id="style_color"/>
+    <link href="../assets/global/css/base.css" rel="stylesheet" type="text/css"/>
+    <link href="../assets/admin/layout4/css/admin-custom.css" rel="stylesheet" type="text/css"/>
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="page-header-fixed page-sidebar-closed-hide-logo page-sidebar-fixed page-sidebar-closed-hide-logo">
+<!-- BEGIN HEADER -->
+<div class="page-header navbar navbar-fixed-top">
+<!-- BEGIN HEADER INNER -->
+<div class="page-header-inner">
+<!-- BEGIN LOGO -->
+<div class="page-logo">
+    <a href="#">
+        <img src="../assets/global/img/logo2.png" class="logo-default" alt="QM">
+    </a>
+    <div class="menu-toggler sidebar-toggler">
+    </div>
+</div>
+<!-- END LOGO -->
+<!-- BEGIN RESPONSIVE MENU TOGGLER -->
+<a href="javascript:;" class="menu-toggler responsive-toggler" data-toggle="collapse" data-target=".navbar-collapse">
+</a>
+
+<div class="page-actions">
+    <div class="btn-group">
+        <button type="button" class="btn red-haze btn-sm dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+            <span class="hidden-sm hidden-xs">Actions&nbsp;</span><i class="fa fa-angle-down"></i>
+        </button>
+        <ul class="dropdown-menu" role="menu">
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-docs"></i> New Post </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-tag"></i> New Comment </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-share"></i> Share </a>
+            </li>
+            <li class="divider">
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-flag"></i> Comments <span class="badge badge-success">4</span>
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <i class="icon-users"></i> Feedbacks <span class="badge badge-danger">2</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<div class="top-menu">
+<ul class="nav navbar-nav pull-right">
+    <li class="dropdown dropdown-extended dropdown-notification" id="header_notification_bar">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+            <i class="icon-bell"></i>
+                            <span class="badge badge-success">
+                            7 </span>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="external">
+                <h3><span class="bold">12 pending</span> notifications</h3>
+                <a href="extra_profile.html">view all</a>
+            </li>
+            <li>
+                <div class="slimScrollDiv" style="position: relative; overflow: hidden; width: auto; height: 250px;"><ul class="dropdown-menu-list scroller" style="height: 250px; overflow: hidden; width: auto;" data-handle-color="#637283" data-initialized="1">
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">just now</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-success">
+                                            <i class="fa fa-plus"></i>
+                                            </span>
+                                            New user registered. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">3 mins</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-danger">
+                                            <i class="fa fa-bolt"></i>
+                                            </span>
+                                            Server #12 overloaded. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">10 mins</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-warning">
+                                            <i class="fa fa-bell-o"></i>
+                                            </span>
+                                            Server #2 not responding. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">14 hrs</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-info">
+                                            <i class="fa fa-bullhorn"></i>
+                                            </span>
+                                            Application error. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">2 days</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-danger">
+                                            <i class="fa fa-bolt"></i>
+                                            </span>
+                                            Database overloaded 68%. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">3 days</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-danger">
+                                            <i class="fa fa-bolt"></i>
+                                            </span>
+                                            A user IP blocked. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">4 days</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-warning">
+                                            <i class="fa fa-bell-o"></i>
+                                            </span>
+                                            Storage Server #4 not responding dfdfdfd. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">5 days</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-info">
+                                            <i class="fa fa-bullhorn"></i>
+                                            </span>
+                                            System Error. </span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="javascript:;">
+                            <span class="time">9 days</span>
+                                            <span class="details">
+                                            <span class="label label-sm label-icon label-danger">
+                                            <i class="fa fa-bolt"></i>
+                                            </span>
+                                            Storage server failed. </span>
+                        </a>
+                    </li>
+                </ul><div class="slimScrollBar" style="width: 7px; position: absolute; top: 0px; opacity: 0.4; display: none; border-radius: 7px; z-index: 99; right: 1px; height: 121.359223300971px; background: rgb(99, 114, 131);"></div><div class="slimScrollRail" style="width: 7px; height: 100%; position: absolute; top: 0px; display: none; border-radius: 7px; opacity: 0.2; z-index: 90; right: 1px; background: rgb(234, 234, 234);"></div></div>
+            </li>
+        </ul>
+    </li>
+
+    <li class="dropdown dropdown-user">
+        <a href="javascript:;" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown" data-close-others="true">
+                            <span class="username username-hide-on-mobile">
+                            Nick </span>
+            <!-- DOC: Do not remove below empty space(&nbsp;) as its purposely used -->
+            <img alt="" class="img-circle" src="../assets/admin/layout4/img/avatar9.jpg">
+        </a>
+        <ul class="dropdown-menu dropdown-menu-default">
+            <li>
+                <a href="extra_profile.html">
+                    <i class="icon-user"></i> My Profile </a>
+            </li>
+            <li>
+                <a href="page_calendar.html">
+                    <i class="icon-calendar"></i> My Calendar </a>
+            </li>
+            <li>
+                <a href="inbox.html">
+                    <i class="icon-envelope-open"></i> My Inbox <span class="badge badge-danger">
+                                    3 </span>
+                </a>
+            </li>
+            <li>
+                <a href="page_todo.html">
+                    <i class="icon-rocket"></i> My Tasks <span class="badge badge-success">
+                                    7 </span>
+                </a>
+            </li>
+            <li class="divider">
+            </li>
+            <li>
+                <a href="extra_lock.html">
+                    <i class="icon-lock"></i> Lock Screen </a>
+            </li>
+            <li>
+                <a href="login.html">
+                    <i class="icon-key"></i> Log Out </a>
+            </li>
+        </ul>
+    </li>
+
+<!-- END USER LOGIN DROPDOWN -->
+</ul>
+</div>
+<div class="page-top">
+    <ul class="page-top-nav clearfix">
+        <li><a href="#" target="_blank">协作</a></li>
+        <li><a href="../frontend/document.html" target="_blank">文档</a></li>
+        <li><a href="http://192.168.15.110:8180/jfinalbbs/" target="_blank">社区</a></li>
+        <li><a href="#" target="_blank">API</a></li>
+    </ul>
+<!-- END TOP NAVIGATION MENU -->
+</div>
+<!-- END PAGE TOP -->
+
+</div>
+<!-- END HEADER INNER -->
+</div>
+<!-- END HEADER -->
+<div class="clearfix">
+</div>
+<!-- BEGIN CONTAINER -->
+<div class="page-container">
+<!-- BEGIN SIDEBAR -->
+<div class="page-sidebar-wrapper">
+
+<div class="page-sidebar navbar-collapse collapse">
+
+<ul class="page-sidebar-menu " data-keep-expanded="false" data-auto-scroll="true" data-slide-speed="200">
+<li class="overview"> <a href="#">概览</a></li>
+<li class="heading">
+    <h3>应用基本信息</h3>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-home"></i>
+        <span class="title">基本信息</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-graduation"></i>
+        <span class="title">证书管理</span>
+    </a>
+</li>
+<li class="heading">
+    <h3>开发管理配置</h3>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-screen-desktop"></i>
+        <span class="title">应用开发</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-pie-chart"></i>
+        <span class="title">分析</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-graph"></i>
+        <span class="title">数据后台</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-settings"></i>
+        <span class="title">API管理</span>
+    </a>
+</li>
+<li class="heading">
+    <h3>版本管理</h3>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-doc"></i>
+        <span class="title">版本信息</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-layers "></i>
+        <span class="title">版本发布</span>
+    </a>
+</li>
+<li>
+    <a href="javascript:;">
+        <i class="icon-bar-chart"></i>
+        <span class="title">版本统计</span>
+    </a>
+</li>
+
+</ul>
+<!-- END SIDEBAR MENU -->
+</div>
+</div>
+<!-- END SIDEBAR -->
+<!-- BEGIN CONTENT -->
+<div class="page-content-wrapper">
+<div class="page-content">
+    <div class="row app-manage2" >
+        <div class="col-md-4 section">
+            <div class="appinfo">
+                <div class="media usr-info">
+                    <a class="pull-left">
+                        <img class="thumb" src="../assets/admin/layout4/img/rig-app1.png"/>
+                    </a>
+                    <div class="media-body">
+                        <h4 class="myAppName" appid="A6974783904718">
+                            <span class="myAppNameSpan">足协</span>
+                        </h4>
+                        <h5>
+                            ID: A6974783904718
+                            <span class="pull-right" data-time="2015-04-17T02:40:59.000Z">
+
+                                2015年4月17日
+
+                            </span>
+                        </h5>
+                        <h5>创建人: xiaoxi</h5>
+                    </div>
+                </div>
+                <div class="profile-desk">
+                    <a href="javascript:;" class="dropdown-toggle arr-b" data-toggle="dropdown">
+
+                    </a>
+                    <div class="dropdown-menu detail">
+                        <span class="hr"></span>
+                        <p><span class="font-normal">appKey: </span><span class="font-dark">796CD410-8B62-8B55-6D82-D634C900BF42</span></p>
+                        <p><span class="font-normal">Android签名证书SHA1码: </span><span class="font-dark">12:F6:B1:15:09:F2:51:3A:62:73:31:1E:AF:5B:E8:13:98:DD:E4:F5</span></p>
+
+                        <span class="hr"></span>
+
+                        <p><span class="font-normal">iOS包名: </span><span class="font-dark">com.apicloud.testapp</span></p>
+
+                        <p><span class="font-normal">Android包名: </span><span class="font-dark">com.apicloud.A6974783904718</span></p>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-3 section">
+            <section class="new-user useropt">
+                <span class="title">本月新增用户</span>
+            <span class="pull-right">
+               <a href="/total" class="code-btn">
+                </a>
+            </span>
+                <div class="count">0<span class="icon-user-follow"></span>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-3 section">
+            <section class="hot-user useropt">
+                <span class="title">活跃用户</span>
+            <span class="pull-right">
+                <a href="/total" class="code-btn">
+                </a>
+            </span>
+                <div class="count">0 <span class="fa fa-fire"></span>
+                </div>
+            </section>
+        </div>
+        <div class="col-md-2 section last">
+            <section class="all-user">
+                <ul>
+                    <li>
+                        <span>总用户</span>
+                        <div class="bold">0</div>
+                    </li>
+                    <li class="push">
+                        <span>推送消息（本月）</span>
+                        <div class="bold">0</div>
+                    </li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <div class="row app-manage1" >
+        <div class="col-md-6 first">
+            <div class="section">
+                <table>
+                    <tbody><tr>
+                        <th colspan="6">
+                            <hr class="border">
+                        </th>
+                    </tr>
+                    <tr>
+                        <td class="tdIcon launch active"><a href="#"><span class="icon-home"></span></a></td>
+                        <td class="tdIcon cert active"><a href="#"><span class="icon-doc"></span></a></td>
+                        <td class="tdIcon code"><a href="#"><span class="icon-screen-desktop"></span></a></td>
+                        <td class="tdIcon mod active"><a href="#"><span class="icon-cloud-download"></span></a></td>
+                        <td class="tdIcon pack active"><a href="#"><span class="icon-layers "></span></a></td>
+                    </tr>
+                    <tr class="app-tr-icon">
+                        <td class="active"><a href="#">基本信息</a></td>
+                        <td class="active"><a href="#">证书</a></td>
+                        <td><a href="#">应用开发</a></td>
+                        <td class="active"><a href="#">云服务</a></td>
+                        <td class="active"><a href="#">生成版本</a></td>
+                    </tr>
+                    </tbody></table>
+            </div>
+
+        </div>
+        <div class="col-md-6 last2">
+            <div class="col-md-8 section member-panel">
+                <div class="member-container col-sm-3">
+                    <img src="../assets/admin/layout4/img/main-account-user.png" alt="成员头像" class="member-icon">
+                    <span class="member-name">xiaoxi</span>
+                    <span class="member-loginTime">今天 13:29&nbsp;登录</span>
+                </div>
+                <div class="member-container col-sm-3">
+                    <img src="../assets/admin/layout4/img/main-account-user.png" alt="成员头像" class="member-icon">
+                    <span class="member-name">大蚕蛹</span>
+                    <span class="member-loginTime">今天 9:31 &nbsp;登录</span>
+                </div>
+                <div class="col-md-6 member-container">
+                    <span class="member-total" >共5人</span>
+                    <a class="member-more">查看所有人</a>
+                </div>
+            </div>
+            <div class="col-md-4 section-rigbtn">
+                <a href="#" class="btn green-haze"><i class="icon-users"></i> 协作</a>
+            </div>
+
+
+        </div>
+    </div>
+    <div class="row app-manage1 ">
+        <div class="col-md-6 first mcm-info-box">
+            <div class="section">
+                <header class="clearfix">
+                    <div class="pull-left">
+                        <span class="title">API分析</span>
+                    </div>
+                </header>
+                <div class="mcm-info">
+                    <div class="mcm-info-bar clearfix">
+                        <label class="mcm-info-label">数据存储<!-- Datebase --></label>
+                        <div class="progress" title="剩余100%">
+                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar DB" style="width:100%" title="剩余100%">
+                            </div>
+                            <span class="show-text-left">
+                                <em></em>
+                            </span>
+                            <span class="show-text-right">
+                                <em>Total: 10G</em>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mcm-info-bar clearfix">
+                        <label class="mcm-info-label">文件存储<!-- File Storage --></label>
+                        <div class="progress" title="剩余100%">
+                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar FS" style="width:100%" title="剩余100%">
+
+                            </div>
+                            <span class="show-text-left">
+                                <em></em>
+                            </span>
+                            <span class="show-text-right">
+                                <em>Total: 10G</em>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mcm-info-bar clearfix">
+                        <label class="mcm-info-label">数据流量<!-- Data Transfer --></label>
+                        <div class="progress" title="剩余100%">
+                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar DT" style="width:100%;" title="剩余100%">
+
+                            </div>
+                            <span class="show-text-left">
+                                <em></em>
+                            </span>
+                            <span class="show-text-right">
+                                <em>Total: 20G</em>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="mcm-info-bar clearfix">
+                        <label class="mcm-info-label">API请求<!-- API Requests --></label>
+                        <div class="progress " title="Dropped:0">
+                            <div aria-valuemax="100" aria-valuemin="0" aria-valuenow="0" role="progressbar" class="progress-bar AR" style="width:NaN%;" title="Served: 0">
+
+                            </div>
+                            <span class="show-text-left">
+                                <em>Served: 0</em>
+                            </span>
+                            <span class="show-text-right">
+                                <em>Dropped: 0</em>
+                            </span>
+                        </div>
+                    </div>
+
+                    <!-- {{else}} -->
+                    <!--                 <div class="ver-info clearfix">
+                                        <div class="pull-left">
+                                            尚未开启数据服务
+                                        </div>
+                                    </div> -->
+                    <!-- {{/if}} -->
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6 last2">
+            <div class="col-md-12 margin-bottom-30 last">
+                <div class="section">
+                    <header class="clearfix">
+                        <div class="pull-left">
+                            <span class="title">测试包</span><span class="ver">
+                        <!-- {{#if tp.upkVer}}
+                            {{tp.upkVer}}
+                        {{else}}
+                        {{/if}} -->
+                    </span>
+                        </div>
+                <span class="pull-right">
+                    <span>
+
+                            1月15日 9:56
+
+                    </span>
+                    <a href="/package" class="code-btn toPackageHistory">
+                    </a>
+                </span>
+                    </header>
+                    <div class="svn">
+
+                        <div class="author">
+                            <span class="fa fa-user"></span> 大蚕蛹
+
+                        </div>
+                        <div class="pack-info">
+                    <span class="download">
+                                <span>下载</span>:
+                                <a href="#"><i class="fa fa-android"></i></a>
+                                <a href="#"><i class="fa fa-apple"></i></a>
+                                <a href="#"><i class="fa fa-qrcode"></i></a>
+
+                            <!-- 根据条件判断加几个"|" -->
+                </span>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-8 publish">
+                    <div class="section">
+                        <header class="clearfix">
+                            <div class="pull-left">
+                                <span class="title">已更新版本</span>
+                                <span class="ver"></span>
+                            </div>
+                    <span class="pull-right">
+                        <span> </span>
+                        <a href="#" class="code-btn">
+                        </a>
+                    </span>
+                        </header>
+                        <div class="ver-info clearfix">
+                            <div class="pull-left"> 暂无版本信息，请在编译后进行查看 </div>
+                            <div class="pull-right"> <!-- 新版本 --><!-- <em class="android">iOS</em> --></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 section-rigbtn">
+                    <a href="#" class="blue btn"><i class="fa fa-rocket"></i>更新版本</a>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+</div>
+</div>
+<!-- END CONTENT -->
+</div>
+<!-- END CONTAINER -->
+
+
+<!-- BEGIN CORE PLUGINS -->
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<script src="../assets/global/plugins/excanvas.min.js"></script>
+<![endif]-->
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/uniform/jquery.uniform.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-switch/js/bootstrap-switch.min.js" type="text/javascript"></script>
+<!-- END CORE PLUGINS -->
+
+<!-- END PAGE LEVEL PLUGINS -->
+<!-- BEGIN PAGE LEVEL SCRIPTS -->
+<script src="../assets/global/scripts/metronic.js" type="text/javascript"></script>
+<script src="../assets/admin/layout4/scripts/layout.js" type="text/javascript"></script>
+
+
+<!-- END PAGE LEVEL SCRIPTS -->
+<script>
+    jQuery(document).ready(function() {
+        Metronic.init(); // init metronic core componets
+        Layout.init(); // init layout
+
+    });
+</script>
+<!-- END JAVASCRIPTS -->
+</body><!-- END BODY -->
+</html>

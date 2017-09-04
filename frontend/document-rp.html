@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<!--[if IE 8]>
+<html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]>
+<html lang="en" class="ie9 no-js"> <![endif]-->
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>QM-文档-开发框架</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+    <meta property="og:site_name" content="-CUSTOMER VALUE-">
+    <meta property="og:title" content="-CUSTOMER VALUE-">
+    <meta property="og:description" content="-CUSTOMER VALUE-">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="-CUSTOMER VALUE-">
+    <!-- link to image for socio -->
+    <meta property="og:url" content="-CUSTOMER VALUE-">
+
+    <!--  <link rel="shortcut icon" href="favicon.ico">-->
+    <!-- Global styles START -->
+    <link href="../assets/global/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="../assets/global/plugins/simple-line-icons/simple-line-icons.min.css" rel="stylesheet">
+    <link href="../assets/global/plugins/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Global styles END -->
+
+    <!-- Page level plugin styles START -->
+    <link href="../assets/global/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet">
+    <link href="../assets/global/plugins/highlight/styles/vs.css" rel="stylesheet">
+    <!-- Page level plugin styles END -->
+
+    <!-- Theme styles START -->
+    <link href="../assets/global/css/components.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/style.css" rel="stylesheet">
+    <!--修改-->
+    <link href="../assets/frontend/layout/css/style-responsive.css" rel="stylesheet">
+    <!--修改-->
+    <link href="../assets/frontend/layout/css/themes/red.css" rel="stylesheet" id="style-color">
+    <link href="../assets/global/css/base.css" rel="stylesheet">
+    <link href="../assets/frontend/layout/css/custom.css" rel="stylesheet">
+    <!-- Theme styles END -->
+</head>
+<!-- Head END -->
+
+<!-- Body BEGIN -->
+<body class="corporate">
+
+<!-- BEGIN contain -->
+<div class="padding-top-70 container-fluid">
+    <div class="main-container qm-doc-container qm-fixed">
+        <div class="doc-left-menu">
+            <!--search box-->
+            <form class="search-form form-inline" role="form" action="/">
+                <div class="form-group">
+                    <label class="sr-only" for="search">Search</label>
+                    <input type="search" class="form-control" name="search" id="search" value="" placeholder="Search">
+                </div>
+            </form>
+            <ul class="doc-nav">
+                <li class="page"><a href="#">Overview</a></li>
+                <li class="category">
+                    <h5 class="category-title">QM快速开发平台</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="document-qm-intro.html">QM介绍</a></li>
+                        <li class="page"><a href="document-make-app.html">使用QM创建一个APP</a></li>
+                        <li class="page"><a href="document-store-intro.html">模版开发并发布</a></li>
+                        <li class="page"><a href="document-module-intro.html">组件开发并发布</a></li>
+                        <li class="page"><a href="document-app.html">如何与IBD对接</a></li>
+                        <li class="page"><a href="document-else.html">其他相关如：推送、地图等</a></li>
+                        <li class="page"><a href="document-install-update.html">APP安装与升级</a></li>
+                        <li class="page"><a href="document-qm-standard.html">开发框架规范</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <h5 class="category-title">移动IBD</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="document-api-intro.html">QMapi介绍</a></li>
+                        <li class="page"><a href="document-link-ibd.html">应用如何对接IBD</a></li>
+                        <li class="page"><a href="document-creat-ibd.html">创建自己的IBD【公共化/私有化】</a></li>
+                        <li class="page"><a href="document-app-store.html">应用市场</a></li>
+                        <li class="page"><a href="document-service-market.html">服务市场</a></li>
+                        <li class="page"><a href="document-data-market.html">数据市场</a></li>
+                        <li class="page"><a href="document-develop-intro.html">开发接口指南</a></li>
+                    </ul>
+                </li>
+                <li class="category">
+                    <h5 class="category-title">云API</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="document-drf.html">DRF - 关于数据</a></li>
+                        <li class="page"><a href="document-iom.html">IOM - 关于权限</a></li>
+                        <li class="page"><a href="document-csc.html">CSC - 关于人员</a></li>
+                        <li class="page active"><a href="document-rp.html">云资源池 - 关于资源池</a></li>
+                    </ul>
+                </li>
+
+                <li class="category">
+                    <h5 class="category-title">其它服务协议</h5>
+                    <ul class="pages">
+                        <li class="page"><a href="document-service-secret.html">隐私条款</a></li>
+                        <li class="page"><a href="document-service.html">服务条款</a></li>
+                        <li class="page"><a href="document-template-service.html">模板市场服务协议</a></li>
+                        <li class="page"><a href="document-module-service.html">组件市场服务协议</a></li>
+                        <li class="page"><a href="document-app-service.html">APP服务协议</a></li>
+                        <li class="page"><a href="document-faq.html">FAQ</a></li>
+                    </ul>
+                </li>
+            </ul>
+
+        </div>
+        <div class="doc-rigcon">
+            <div class="main-content">
+                <section class="doc-content">
+                    <h1 class="title">资源池</h1>
+                    <p><a href="#1">资源池介绍</a></p>
+
+                    <h1 id="-div-id-1-div-"><strong>资源池介绍</strong>
+                        <div id="1"></div>
+                    </h1>
+                    <p style="line-height: 30px;">
+                        资源池：<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp;
+                        随着网络的发展，各类数据的数量日益增多，如果沿用传统的从硬件到应用相互土里的烟囱式部署方式，IT设备采购和部署将面临越来越大的压力，各类IT设备的资源将无法得到有效利用，这在一定程度上影响各个企业。
+                        资源池，通过大规模集中采购、建设和维护IT基础设施，并借助虚拟化和云计算等新技术带来的优势，可逐步降低整个企业的建设和运营成本，加快应用部署速度和目标。
+                        资源池配备软件系统对池中的资源进行合理的调度及管理，用户只需在软件界面进行简单的迁移操作就能完成资源的空间调度，该产品具有资源管理、资源共享、分布式部署等特点，大大提高企业数据部署的安全性和便捷性。
+                        <br>
+                        &nbsp; &nbsp; &nbsp; &nbsp;平台用户可利用资源管理系统对个人的资源进行管理和共享；资源池也提供接口为各个项目组提供更好的底层支持。<br/>
+                        &nbsp; &nbsp; &nbsp; &nbsp;本系统运行在Gnet云服务平台上，可以对不同的资源服务器上进行统一的资源管理、资源共享、分布式部署，大大提高企业数据部署的安全性和便捷性。
+                    </p>
+
+                    <div class="page-meta clearfix">
+                        <div class="last-updated pull-right">
+                            <!-- Last updated on 13th Sep 2015 -->
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+
+    </div>
+
+</div>
+<!-- end contain -->
+
+
+<!-- Load javascripts at bottom, this will reduce page load time -->
+<!-- BEGIN CORE PLUGINS (REQUIRED FOR ALL PAGES) -->
+<!--[if lt IE 9]>
+<script src="../assets/global/plugins/respond.min.js"></script>
+<![endif]-->
+<script src="../assets/global/plugins/jquery.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/jquery-migrate.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap/js/bootstrap.min.js" type="text/javascript"></script>
+<script src="../assets/global/plugins/bootstrap-hover-dropdown/bootstrap-hover-dropdown.min.js"
+        type="text/javascript"></script>
+<script src="../assets/global/plugins/highlight/highlight.pack.js" type="text/javascript"></script>
+<!--代码片段高亮-->
+<!--<script src="../assets/global/plugins/highlightjs/highlight.pack.js" type="text/javascript"></script><!--代码片段高亮-->
+
+<script src="../assets/frontend/layout/scripts/back-to-top.js" type="text/javascript"></script>
+<!-- <script src="../assets/frontend/layout/scripts/doc-layout.js" type="text/javascript"></script> -->
+<!-- END CORE PLUGINS -->
+
+<!-- BEGIN PAGE LEVEL JAVASCRIPTS (REQUIRED ONLY FOR CURRENT PAGE) -->
+<script src="../assets/global/plugins/fancybox/source/jquery.fancybox.pack.js" type="text/javascript"></script>
+<!-- pop up -->
+<script src="../assets/global/plugins/jquery-slimscroll/jquery.slimscroll.min.js" type="text/javascript"></script>
+<!--滚动条-->
+
+<script src="../assets/frontend/layout/scripts/layout.js" type="text/javascript"></script>
+<!--修改-->
+<script type="text/javascript">
+    jQuery(document).ready(function () {
+        Layout.init();
+//        hljs.initHighlightingOnLoad();
+        $('pre code').each(function (i, block) {
+            hljs.highlightBlock(block);
+        });
+    });
+
+</script>
+<!-- END PAGE LEVEL JAVASCRIPTS -->
+</body>
+<!-- END BODY -->
+</html>
