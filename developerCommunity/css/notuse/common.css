@@ -1,0 +1,157 @@
+/*!
+ * Bootstrap v3.3.4 (http://getbootstrap.com)
+ * Copyright 2011-2015 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+.control-label {
+    color: #646464;
+}
+
+.bootstrap-switch {
+    border-radius: 5px !important;
+}
+
+.form-control {
+    border: 1px solid #d3d9e5;
+}
+
+.btn {
+    border-radius: 5px !important;
+}
+
+.form-control:hover {
+    border: 1px solid #1ba899;
+    border-width: 1px;
+}
+.form-control:focus,input[type="text"]:focus,input[type="datetime"]:focus{ border: 1px solid #1ba899;  }
+/* Circle Inputs */
+.input-circle {
+    border-radius: 3px !important;
+}
+
+.input-circle1 {
+    border-radius: 25px !important;
+}
+
+.page-content {
+    background-color: #e9ecf3;
+}
+
+.tab-schoolBase {
+    font-size: 20px;
+}
+
+.dashboard-stat:hover {
+    background: #2386ca;
+}
+
+
+.form-group {
+    margin-bottom: 14px;
+}
+/*年级table表居中*/
+#tableinfo th {
+    text-align: center;
+}
+
+/*年级table下返回上一页按钮*/
+.return {
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    text-align: center;
+    /*color: white;*/
+    background: #FFCD70;
+    font-size: 18px;
+    border-radius: 7px !important;
+    margin-bottom: 20px;
+    margin-left: 75%;
+}
+
+.return a {
+    color: white;
+    text-decoration: none;
+}
+
+.return:hover {
+    background: #F0AD4E;
+}
+
+.return:hover a {
+    color: #eee;
+}
+
+.tab-content .fban {
+    height: 30px;
+    width: 50px;
+    background: #F05F2A;
+    text-align: center;
+    line-height: 30px;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: white;
+    border-radius: 7px !important;
+}
+
+/*学年学期列表表头样式*/
+
+th {
+    text-align: center;
+}
+
+.xn {
+    text-align: center;
+}
+
+.btn-search {
+    padding: 5px;
+}
+
+h5 {
+    font-weight: 700 !important;
+}
+
+.list-tool {
+    font-size: 20px;
+    line-height: 20px;
+}
+
+/*弹出层样式加个圆角*/
+.modal.container {
+    width: 60%;
+    margin-left: -20%;
+    border-radius: 7px !important;
+}
+
+/*大列表状态列样式*/
+.bigListState {
+    CURSOR: hand
+}
+textarea{
+	/*resize: none;*/
+	width: 351.375px;
+	height: 100px;
+	max-width: 351.375px;
+	max-height: 150px;
+}
+
+/*选择日期图标颜色*/
+.input-group-btn:last-child>.btn, .input-group-btn:last-child>.btn-group {  margin-left: -1px;  color: #fff;  background-color: #1ba899;  border-radius: 0px 3px 3px 0px!important;}
+.dropdown-menu>li>a:focus{  color: #ffffff;  text-decoration: none;  background-color: #1ba899 ;  }
+
+.ww30{width: 30%;}
+
+/*修改面板删除按钮的样式名称  20170713 by wenxia*/
+.portlet.box > .portlet-title > .tools > a.portlet-remove{
+    background-image: url(../img/portlet-remove-icon-white.png);
+    background-repeat: no-repeat;
+    width: 11px;
+}
+.page-header.navbar .hor-menu .navbar-nav > li > a {
+    color: #3FD5C0 !important;
+}
+.page-header.navbar .hor-menu .navbar-nav > li.active > a {
+    color: white !important;
+}
